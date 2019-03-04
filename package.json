@@ -1,0 +1,25 @@
+{
+	"author": "Nathan Cavanaugh <nathan.cavanaugh@liferay.com> (https://github.com/natecavanaugh)",
+	"bugs": {
+		"url": "https://issues.liferay.com/"
+	},
+	"devDependencies": {
+		"gulp": "^3.8.10",
+		"liferay-theme-deps-7.1": "8.0.0-rc.2",
+		"liferay-theme-tasks": "8.0.0-rc.2"
+	},
+	"keywords": [
+		"liferay-theme"
+	],
+	"license": "LGPL",
+	"liferayTheme": {
+		"baseTheme": "styled",
+		"distName": "nhs-71-theme",
+		"rubySass": false,
+		"version": "7.1"
+	},
+	"main": "package.json",
+	"name": "nhs-71-theme",
+	"repository": "liferay/liferay-portal",
+	"version": "3.0.0"
+}
