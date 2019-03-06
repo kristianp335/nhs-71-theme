@@ -57,6 +57,9 @@
 						<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 							<img alt="${logo_description}" height="56" src="${site_logo}" />
 						</a>
+					<#if site_level_logo_path != "none" || site_level_logo_path != '' >	
+						<img alt="Site level logo" height="56" src="${images_folder}/${site_level_logo_path}" />
+					</#if>
 					</div>
 
 					<#if has_navigation>

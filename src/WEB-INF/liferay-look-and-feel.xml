@@ -14,6 +14,7 @@
 			<setting configurable="true" key="show-header" type="checkbox" value="true" />
 			<setting configurable="true" key="show-main-search-on" options="all-screens,big-screens,small-screen,no-screen" type="select" value="all-screens" />
 			<setting configurable="true" key="show-recursive-menu-on" options="all-screens,big-screens,small-screen,no-screen" type="select" value="big-screens" />
+			<setting configurable="true" key="site-level-logo" options="uk.png,yorkshire_rose.png,lancashire_rose.png,england.png, none" type="select" value="site-level-logo" />
 		</settings>
 		<layout-templates>
 			<custom>

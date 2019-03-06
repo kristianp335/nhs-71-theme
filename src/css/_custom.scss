@@ -68,3 +68,9 @@ body {
 a { 	
 	color: $primary;
 }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+		margin-top: 8px;
+  }
+}

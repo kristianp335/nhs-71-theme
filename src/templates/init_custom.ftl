@@ -4,6 +4,7 @@
 	show_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-header"))
 	show_main_search_on = themeDisplay.getThemeSetting("show-main-search-on")
 	show_recursive_menu_on = themeDisplay.getThemeSetting("show-recursive-menu-on")
+	site_level_logo_path = themeDisplay.getThemeSetting("site-level-logo")
 />
 
 <#if stringUtil.equals(show_global_menu_on, "all-screens")>
